@@ -24,7 +24,9 @@ VERSION = '1.0.6'
 REQUIRED = [
     'Keras<=2.3.1',
     'scikit-learn',
-    'seqeval==0.0.3'
+    'seqeval==0.0.3',
+    'protobuf==3.15',
+    'tensorflow<2'
 ]
 
 # What packages are optional?
