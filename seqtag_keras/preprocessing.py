@@ -28,7 +28,7 @@ class IndexTransformer(BaseEstimator, TransformerMixin):
         _label_vocab: dict. A mapping of labels to feature indices.
     """
 
-    def __init__(self, lower=True, num_norm=True,
+    def __init__(self, lower=True, num_norm=False,
                  use_char=True, initial_vocab=None):
         """Create a preprocessor object.
 
